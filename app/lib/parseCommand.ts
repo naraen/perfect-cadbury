@@ -3,7 +3,7 @@ import { Task } from './types';
 /* ---------------- Utilities ---------------- */
 
 function todayStr() {
-  return new Date().toISOString().slice(0, 10);
+    return new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles',}).slice(0, 10)
 }
 
 function tomorrowStr() {
@@ -28,7 +28,6 @@ export function parseCommand(
   selectedDate: string
 ): CommandResult {
   let result = parseCommand1(input, selectedDate);
-  console.log(31, result)
   return result;
 }
 function parseCommand1(

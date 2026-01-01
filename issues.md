@@ -2,13 +2,15 @@ Issues
 ======
 
   - [x] command window is white on white
-  - [ ] Fix hydration error
+  - [x] Fix hydration error
 
 Wishlist
 ========
   - Create a monthly view with 4 weeks of the month showing
   - Create a yearly view with months showing
   - Create a life view
+  - Google Auth for login
+  - 
 
 Commands Help
 =============
